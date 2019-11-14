@@ -14,7 +14,7 @@ export default class Note extends React.Component {
 
   handleClickDelete = e => {
     e.preventDefault()
-    const noteId = this.props.id
+    const noteId = this.props.noteId
     // console.log(this.props.id)
     // console.log(this.props.noteId)
 
